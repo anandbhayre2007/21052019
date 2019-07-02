@@ -1,0 +1,20 @@
+package libraries;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import configuration.Config;
+
+public class ApplicationLibrary 
+{
+	
+	public WebDriver launchBrowser()
+	{
+		System.setProperty("webdriver.chrome.driver", Config.chromeDriverPath);
+		WebDriver dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		
+		return dr;
+	}
+
+}

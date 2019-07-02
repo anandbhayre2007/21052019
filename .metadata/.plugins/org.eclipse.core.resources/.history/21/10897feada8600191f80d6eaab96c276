@@ -1,0 +1,14 @@
+package exceptionHandling;
+
+public class Testing2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Anand");
+		
+		Thread.sleep(3000);
+		System.out.println("Bhayre");
+
+	}
+
+}

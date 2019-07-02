@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;handleAlerts&apos; to &apos;TestNGProject/src&apos;&#x0D;&#x0A;- Original project: &apos;AdvanceSelenium&apos;&#x0D;&#x0A;- Destination element: &apos;TestNGProject/src&apos;&#x0D;&#x0A;- Original element: &apos;AdvanceSelenium/src/handleAlerts&apos;" description="Copy package" destination="=TestNGProject/src" element1="/src&lt;handleAlerts" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1561039735261" version="1.0"/>
+</session>

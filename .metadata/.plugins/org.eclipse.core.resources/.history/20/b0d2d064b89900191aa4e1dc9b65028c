@@ -1,0 +1,17 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class HomePage 
+{
+	
+	WebDriver dr;	
+	
+	public HomePage(WebDriver dr)
+	{
+		this.dr=dr;
+	}
+
+	
+	
+}

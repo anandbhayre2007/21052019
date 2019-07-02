@@ -1,0 +1,13 @@
+package testScripts;
+
+import org.junit.Test;
+
+public class TC_Login 
+{
+	@Test
+	public void script()
+	{
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package libraries;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import configuration.Config;
+
+public class ApplicationLibrary 
+{
+	/*Author: Anand Bhayre
+	 *Date : 28/06/2019
+	 *Description: This function will launch the browser 
+	 *Param: No parameter
+	 *Return: It will return the instance of driver
+	 */
+	public WebDriver launchBrowser()
+	{
+		System.setProperty("webdriver.chrome.driver", Config.chromeDriverPath);
+		WebDriver dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		
+		return dr;
+	}
+	
+	/*Author: Anand Bhayre
+	 *Description: This function navigate to url
+	 *Param: WebDriver and Url
+	 *Return: Nothing
+	 */
+	public String navigate(WebDriver dr, String url)
+	{
+		dr.get(url);
+		return dr.getTitle();
+	}
+
+}

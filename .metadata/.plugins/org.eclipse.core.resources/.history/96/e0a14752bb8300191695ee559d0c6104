@@ -1,0 +1,8 @@
+package oops.abstraction.Byinterface;
+
+public interface RBI 
+{
+	public void savingAccount();
+	
+
+}

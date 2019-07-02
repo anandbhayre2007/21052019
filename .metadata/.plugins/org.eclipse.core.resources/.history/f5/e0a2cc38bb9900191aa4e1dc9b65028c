@@ -1,0 +1,25 @@
+package testScripts;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+
+import libraries.ApplicationLibrary;
+
+public class TC_Login 
+{
+	@Test
+	public void script()
+	{
+		ApplicationLibrary lib= new ApplicationLibrary();
+		
+		//Launch Browser
+		WebDriver dr=lib.launchBrowser();		
+		assertTrue(dr!=null);
+		
+		
+		
+	}
+
+}
